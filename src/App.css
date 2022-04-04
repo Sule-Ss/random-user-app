@@ -1,0 +1,84 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  
+}
+
+body{
+  background-image: linear-gradient(174.2deg, rgba(255, 244, 228, 1) 7.1%, rgba(240, 246, 238, 1) 67.4%);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+ 
+}
+
+main {
+  border: 1px solid blue;
+  padding: 1rem;
+  box-shadow: 5px 5px #22577E, 10px 10px rgb(51, 151, 233), 15px 15px rgb(124, 198, 227);
+  background-color: #8BC6EC;
+  background-image: linear-gradient(35deg, #98d6ff 0%, #6474dc 100%);
+}
+
+main nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  /* margin: 0.5rem; */
+  font-weight: bold;
+}
+
+nav span,
+h2 {
+  margin: 0.3rem 1rem;
+}
+
+main img {
+  border-radius: 50%;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #000428 0%, #004e92 51%, #000428 100%)
+}
+
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  margin: 3rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 50px;
+}
